@@ -1,0 +1,46 @@
+body {
+	background: #b6fcd5;
+}
+
+.contenedor {
+	
+	display: flex;
+	width: 1000px;
+	height: 40px;
+	color: blueviolet;
+	font-size: 40px;
+	line-height: 40px;
+	
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 600;
+	margin: auto;
+	overflow: hidden;
+	
+}
+
+ul {
+	list-style: none;
+	padding-left: 40px;
+	animation: cambiar 7s infinite;
+}
+
+ul, p {
+	margin: 0;
+}
+
+@keyframes cambiar {
+	
+	0%{ margin-top: 0;}
+	28%{ margin-top: 0;}
+	
+	33% {margin-top: -40px;}
+	61% {margin-top: -40px;}
+	
+	66% {margin-top: -80px;}
+	95% {margin-top: -80px;}
+
+	100% {margin-top: 0;}
+}
